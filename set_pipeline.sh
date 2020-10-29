@@ -426,7 +426,7 @@ if [[ -n "$spnode"  &&  -n "$spfmt"  &&  -n "$spres" && -n "$spcrop" ]];then
 	fi
 	if [[ ${spres%x*} -gt 1920 ]];then
 		echo "sp output width can't exceed 1920 !"
-		exit 1
+		#exit 1  # ignore spres warning
 	fi
 
 	calcCrop $spcrop $spres

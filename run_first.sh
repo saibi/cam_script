@@ -19,7 +19,7 @@ RES=2112x1568
 NAME="m00_b_ov13850 1-0036"
 MP_NODE=/dev/video0
 SP_NODE=/dev/video1
-SPRES=1920x1200
+SPRES=$RES
 
 ./set_pipeline.sh --sensorbayer $BAYER --sensorname "$NAME"  --sensorres $RES --medianode 0 --mpnode $MP_NODE --mpfmt NV12 --mpres $RES --spnode $SP_NODE --spfmt NV12 --spres $SPRES
 
