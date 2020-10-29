@@ -27,7 +27,7 @@ case "$1" in
     then
 	    echo ./set_pipeline.sh --sensorbayer $BAYER --sensorname "$NAME"  --sensorres $RES --medianode $i --mpnode $MP_NODE --mpfmt NV12 --mpres 640x480 --spnode $SP_NODE --spfmt NV12 --spres $SPRES 
 
-      ./set_pipeline.sh --sensorbayer $BAYER --sensorname "$NAME"  --sensorres $RES --medianode $i --mpnode $MP_NODE --mpfmt NV12 --mpres 640x480 --spnode $SP_NODE --spfmt NV12 --spres $SPRES
+      ./set_pipeline.sh --sensorbayer $BAYER --sensorname "$NAME"  --sensorres $RES --medianode $i --mpnode $MP_NODE --mpfmt NV12 --mpres $RES --spnode $SP_NODE --spfmt NV12 --spres $SPRES
       if [[ $SENSOR ]]
       then
           cp /etc/iqfiles/$SENSOR*.xml /etc/cam_iq.xml
