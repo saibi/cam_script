@@ -1,5 +1,5 @@
 #!/bin/bash 
-export QTDIR=/opt/qt-5.15.1-base-rk3399-mali-1102
+export QTDIR=/opt/qt-5.15.1-rk3399-mali-1105
 if [ ! -d $QTDIR ]; then
     echo "QT Not found"
 fi
@@ -22,5 +22,5 @@ export QT_QPA_EGLFS_TSLIB=0
 export QT_QPA_GENERIC_PLUGINS=evdevmouse,evdevkeyboard
 export QT_PLUGIN_PATH=$QTDIR/plugins
 export QML2_IMPORT_PATH=$QTDIR/qml
-export LD_LIBRARY_PATH=$QTDIR/lib:/usr/rk3399-libs/lib64:/usr/lib/aarch64-linux-gnu:/lib/aarch64-linux-gnu:
+export LD_LIBRARY_PATH=$QTDIR/lib:/usr/lib/aarch64-linux-gnu:/lib/aarch64-linux-gnu:
 
