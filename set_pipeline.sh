@@ -309,6 +309,9 @@ case "$sensorbayer" in
 	"SGRGB10_1X10")
 		sensorfmt='[fmt:SGRGB10/'$sensorres']'
 		;;
+	"SGRBG10_1X10")
+		sensorfmt='[fmt:SGRBG10/'$sensorres']'
+		;;
 		'')
 		;;
 		*)
