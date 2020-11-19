@@ -1,4 +1,4 @@
 # cam_script
-rk3399 camera script
+rk3399-jd4 camera script
 
 

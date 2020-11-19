@@ -439,6 +439,7 @@ if [[ -n "$spnode"  &&  -n "$spfmt"  &&  -n "$spres" && -n "$spcrop" ]];then
 	# echo $spfmt
 fi
 
+
 # 1. set sensor
 # notice that we should add "" quote for $sensorname
 if [[ -n "$sensorfmt" ]];then
